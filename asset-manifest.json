@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/covid-impacts-travel/static/js/main.72bebc8a.chunk.js",
+    "main.js.map": "/covid-impacts-travel/static/js/main.72bebc8a.chunk.js.map",
+    "runtime-main.js": "/covid-impacts-travel/static/js/runtime-main.db1c2577.js",
+    "runtime-main.js.map": "/covid-impacts-travel/static/js/runtime-main.db1c2577.js.map",
+    "static/js/2.3c8b44bb.chunk.js": "/covid-impacts-travel/static/js/2.3c8b44bb.chunk.js",
+    "static/js/2.3c8b44bb.chunk.js.map": "/covid-impacts-travel/static/js/2.3c8b44bb.chunk.js.map",
+    "index.html": "/covid-impacts-travel/index.html",
+    "static/js/2.3c8b44bb.chunk.js.LICENSE.txt": "/covid-impacts-travel/static/js/2.3c8b44bb.chunk.js.LICENSE.txt",
+    "static/media/Canela-Regular.45592e43.woff": "/covid-impacts-travel/static/media/Canela-Regular.45592e43.woff",
+    "static/media/FarnhamDisplay-Light.1ed03b2a.woff": "/covid-impacts-travel/static/media/FarnhamDisplay-Light.1ed03b2a.woff",
+    "static/media/FarnhamDisplay-Medium.7dd8eae9.woff": "/covid-impacts-travel/static/media/FarnhamDisplay-Medium.7dd8eae9.woff",
+    "static/media/SourceSerifVariable.9e6d13d0.otf": "/covid-impacts-travel/static/media/SourceSerifVariable.9e6d13d0.otf",
+    "static/media/paris.b491123f.webm": "/covid-impacts-travel/static/media/paris.b491123f.webm",
+    "static/media/tiananmeng-after.b12f16c0.jpeg": "/covid-impacts-travel/static/media/tiananmeng-after.b12f16c0.jpeg",
+    "static/media/tiananmeng-before.6f1cc8f6.jpeg": "/covid-impacts-travel/static/media/tiananmeng-before.6f1cc8f6.jpeg",
+    "static/media/times-square-after.9acc8997.jpeg": "/covid-impacts-travel/static/media/times-square-after.9acc8997.jpeg",
+    "static/media/times-square-before.479e18a0.jpeg": "/covid-impacts-travel/static/media/times-square-before.479e18a0.jpeg",
+    "static/media/walking-through-street.7073ad5e.webm": "/covid-impacts-travel/static/media/walking-through-street.7073ad5e.webm",
+    "static/media/worksans-medium.03267b72.woff": "/covid-impacts-travel/static/media/worksans-medium.03267b72.woff",
+    "static/media/worksans-regular.60cf8492.woff2": "/covid-impacts-travel/static/media/worksans-regular.60cf8492.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db1c2577.js",
+    "static/js/2.3c8b44bb.chunk.js",
+    "static/js/main.72bebc8a.chunk.js"
+  ]
+}
