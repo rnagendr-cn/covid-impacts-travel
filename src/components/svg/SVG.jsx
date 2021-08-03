@@ -65,9 +65,13 @@ const SVG = ({ className, spring, springs }) => {
       {springs.map((icon, i) => {
         const position = getPosition(i)
         if (i % 2 === 0) {
-          return <Flight id={i + 1} {...position} height={icon.height} />
+          return (
+            <Flight key={i} id={i + 1} {...position} height={icon.height} />
+          )
         } else {
-          return <FlightMask id={i + 1} {...position} height={icon.height} />
+          return (
+            <FlightMask key={i} id={i + 1} {...position} height={icon.height} />
+          )
         }
       })}
     </a.svg>

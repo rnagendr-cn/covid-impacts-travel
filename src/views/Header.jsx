@@ -1,9 +1,12 @@
 import React, { forwardRef } from "react"
 import withStyles from "react-jss"
 import colors from "../colors"
+import BackgroundVideo from "../components/BackgroundVideo"
+import Paris from "../assets/videos/paris.webm"
 
 const styles = {
   container: {
+    position: "relative",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -20,57 +23,42 @@ const styles = {
     alignItems: "center",
     flexDirection: "column",
     marginTop: "-4rem",
+    padding: "4rem",
+    borderRadius: "10px",
+    backgroundColor: colors.blueMutedOpacity,
+    zIndex: 10,
   },
   title: {
     margin: "0 2rem 2rem 2rem",
     textAlign: "center",
     lineHeight: 1.2,
     fontSize: "calc(44px + 2vmin)",
+    "@media only screen and (max-width: 600px)": {
+      fontSize: "34px",
+    },
   },
   description: {
-    fontSize: "22px",
+    fontSize: "min(20px, 4.7vmin)",
+    maxWidth: "60%",
     textAlign: "center",
     margin: 0,
     color: colors.blackMuted,
-  },
-  label: {
-    textAlign: "center",
-    fontSize: "22px",
-    marginBottom: 0,
-    color: colors.blackMuted,
-  },
-  select: {
-    fontFamily: "Farnham",
-    fontSize: "22px",
-    padding: "0.3rem 0.5rem",
-    margin: "0.5rem 1rem 1rem 1rem",
-    color: colors.blackMuted,
+    "@media only screen and (max-width: 700px)": {
+      maxWidth: "90%",
+    },
   },
 }
 
 const Header = ({ classes }, ref) => {
-  // const options = ["World", "US"]
-  // const [location, setLocation] = useState(options[0])
-
   return (
     <div className={classes.container} ref={ref}>
+      <BackgroundVideo video={Paris} poster={""} />
       <div className={classes.box}>
         <h2 className={classes.title}>How has COVID impacted tourism?</h2>
         <p className={classes.description}>
           A visual comparison between 2019 and 2020 to see how much COVID
           impacted tourism
-          {/* Show me the stats for */}
         </p>
-        {/* <select
-          className={classes.select}
-          value={location}
-          onChange={(e) => setLocation(e.target.value)}>
-          {options.map((option, i) => (
-            <option key={i} value={option}>
-              {option}
-            </option>
-          ))}
-        </select> */}
       </div>
     </div>
   )

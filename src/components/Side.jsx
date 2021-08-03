@@ -82,8 +82,8 @@ const Side = ({ classes, yearSpring, refs }) => {
       <Section ref={refs[1]}>
         <p className={classes.sideDescription}>
           Tourism is one of the world’s major economic sectors. It is the{" "}
-          <b>third-largest</b> export category (after fuels and chemicals) and
-          in 2019 accounted for <b>7%</b> of global trade.
+          <b>third-largest</b> export category and in 2019 accounted for{" "}
+          <b>7%</b> of global trade.
         </p>
         {/* Source - https://www.unwto.org/tourism-and-covid-19-unprecedented-economic-impacts */}
         <p className={classes.sideDescription}>
@@ -92,7 +92,10 @@ const Side = ({ classes, yearSpring, refs }) => {
       </Section>
       <Section ref={refs[2]}>
         <p className={classes.sideDescription}>
-          In order to understand it better, consider a the chart on right. It
+          But what do any of these terms and numbers mean?
+        </p>
+        <p className={classes.sideDescription}>
+          In order to understand it better, consider the chart on right. It
           represents <b>100 units</b>.
         </p>
       </Section>
@@ -135,7 +138,7 @@ const Side = ({ classes, yearSpring, refs }) => {
       </Section>
       <Section ref={refs[5]}>
         <p className={classes.sideDescriptionCenter}>
-          What this looked like? Locations like
+          What did this look like? Locations like
         </p>
         <h4 className={classes.year}>Tiananmeng Square</h4>
         <p className={classes.sideDescriptionCenter}>
@@ -144,14 +147,52 @@ const Side = ({ classes, yearSpring, refs }) => {
         </p>
       </Section>
       <Section ref={refs[6]}>
+        <p className={classes.sideDescriptionCenter}>And</p>
+        <h4 className={classes.year}>Times Square</h4>
+        <p className={classes.sideDescriptionCenter}>went silent too</p>
+      </Section>
+      <div style={{ height: "10vh", width: "100%" }} />
+      {/* <Section
+      // ref={refs[6]}
+      >
         <p className={classes.sideDescription}>
-          This in turn lead to a{" "}
-          <a.span className={classes.redPercent}>
-            {Math.abs(yearWise[2020].receipts.changePercent)}%{" "}
-          </a.span>
-          decrease in tourism revenue globally
+          In <b>2019</b>, each country had its own huge network of people in
+          tourism sector to help the 1446 million tourists arriving have the
+          best experience.
         </p>
       </Section>
+      <Section
+      // ref={refs[6]}
+      >
+        <p className={classes.sideDescription}>
+          In <b>2020</b>, this huge network of people who could handle 1446
+          million tourists, suddenly had to cater to a really small crowd
+          people. In some cases, <b>there was no one to cater to</b>.
+        </p>
+        <p className={classes.sideDescription}>
+          This drastic drop made the jobs which rely on tourism run at losses,
+          which lead to layoffs and millions of livelihoods at risk.
+        </p>
+      </Section>
+
+      <Section
+      // ref={refs[6]}
+      >
+        <p className={classes.percentChange}>
+          To put it in numbers, Asia and the Pacific region had a tourism export
+          of
+        </p>
+        <a.h4 className={classes.year}>485</a.h4>
+        <h4 className={classes.year}>billion USD</h4>
+        <p className={classes.percentChange}>in</p>
+        <h4 className={classes.year}>
+          <a.span>2019</a.span>
+        </h4>
+        <a.p className={classes.percentChange}>
+          Which makes it 2% of total exports. To put things in perspective, it
+          was 3% in 1980.
+        </a.p>
+      </Section> */}
     </div>
   )
 }
